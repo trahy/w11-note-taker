@@ -1,4 +1,5 @@
 const notes = require('express').Router();
+const { v4: uuidv4 } = require('uuid');
 
 
 // GET route for retrieving all notes
@@ -25,3 +26,5 @@ tips.post('/', (req, res) => {
         res.error('Error in adding note');
     }
 });
+
+module.exports = notes;
