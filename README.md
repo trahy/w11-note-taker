@@ -11,11 +11,11 @@ Access the webpage using the deployed link [HERE](https://w11-note-taker-a4ba89e
 
 The link will open to the home page.
 
-Click the `Get Started` button to open the main application.
+1. Click the `Get Started` button to open the main application.
 
-Enter the title and description. To create the note, click the `save icon`.
+2. Enter the title and description. To create the note, click the `save icon`.
 
-Go through the notes or delete them in the side bar.
+3. Go through the notes or delete them in the side bar.
 
 
 ## Screenshot
