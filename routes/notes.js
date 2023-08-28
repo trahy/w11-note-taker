@@ -18,11 +18,11 @@ notes.get('/:note_id', (req, res) => {
         .then((data) => JSON.parse(data))
         .then((json) => {
             const result = json.filter((note) => note.note_id === noteId);
-            return result.length > 0
-            ? res.json(result)
-            : res.json('No tip with that ID');
+            return result
+                ? res.json(result)
+                : res.json('No tip with that ID');
         });
-    });
+});
 
 // DELETE Route for a specific note
 notes.delete('/:note_id', (req, res) => {
