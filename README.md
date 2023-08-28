@@ -2,21 +2,7 @@
 
 ## Description
 
-This is a simple note-taking application that is used to write and save notes. 
-
-
-## Installation
-
-1. Download or clone this repository
-2. [node.js](https://nodejs.org/en) is required for this application.
-3. Use the following command in the terminal to install the required packages:
-```
-npm i
-```
-4. Run the following command to start the application:
-```
-npm start
-```
+This is a simple note-taking application that is used to write and save notes.
 
 
 ## Usage
